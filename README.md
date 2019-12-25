@@ -1,7 +1,7 @@
 ## Responsive Portfolio
 Modified the simple 3 page portfolio website previously build, to use the css framework Bootstrap.
 
-### Technolgy Used
+### Technology Used
 - html
 - css
 - bootstrap
