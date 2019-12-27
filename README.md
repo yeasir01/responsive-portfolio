@@ -4,7 +4,7 @@ Modified the simple 3 page portfolio site previously build using html/css & adde
 ### Technology Used
 - html 5
 - css 3
-- bootstrap 4.2.1
+- bootstrap 4.4
 
 ### Platform
 - browser based website.
