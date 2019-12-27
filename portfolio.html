@@ -2,55 +2,65 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Yeasir H | Portfolio</title>
 </head>
 <body>
-
-    <Header>
-        <div id="hd-container" class="container">
-            <a id="text-logo" href="index.html">
-                <h2>Yeasir Hugais</h2>
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contacts.html">Contact</a></li>
-                </ul>
-            </nav>
+    <header class="bg-white border-bottom">
+        <div class="container hdr-container p-0">
+            <div class="row no-gutters">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <a class="navbar-brand" href="index.html">Yeasir Hugais</a>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">   
+                    <nav class="nav flex-row">
+                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="contacts.html">Contact</a>
+                    </nav>
+                </div>
+            </div>
         </div>
-    </Header>
-
-    <section id="sec-container" class="container">
-        <h1>Portfolio</h1>
-        <hr>
-        <div class="gallery">
-            <img src="./assets/images/hang-man.png" alt="Hangman on green chalkboard">
-            <p>Hangman</p>
-        </div>
-        <div class="gallery">
-            <img src="./assets/images/rpg-games.jpg" alt="Pic that reads top 25 games">
-            <p>RPG Game</p>
-        </div>
-        <div class="gallery">
-            <img src="./assets/images/triva-games.jpg" alt="1954 triva board game">
-            <p>Triva Game</p>
-        </div>
-        <div class="gallery">
-            <img src="./assets/images/rutgers.png" alt="animated photo of a bus">
-            <p>Rutgers Info Widget</p>
-        </div>
-        <div class="gallery">
-            <img src="./assets/images/rps.png" alt="blocks with the letters r p s">
-            <p>Rock Papper Scissors</p>
-        </div>
-    </section>
+    </header>
     
-    <footer>
-        <p class="container">Copyright &copy; 2019</p>
+    <div class="row no-gutters">
+        <section class="sec-cont container bg-white border my-4 p-4">
+            <h1>Portfolio</h1>
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center">
+                        <img class="w-100 mb-4" src="./assets/images/hang-man.png" alt="Hangman on green chalkboard">
+                        <p class="text-center text-white img-cap">Hangman</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center">
+                        <img class="w-100 mb-4" src="./assets/images/rpg-games.jpg" alt="Pic that reads top 25 games">
+                        <p class="text-center text-white img-cap">RPG Game</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center">
+                        <img class="w-100 mb-4" src="./assets/images/triva-games.jpg" alt="1954 triva board game">
+                        <p class="text-center text-white img-cap">Triva Game</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center">
+                        <img class="w-100 mb-4" src="./assets/images/rutgers.png" alt="animated photo of a bus">
+                        <p class="text-center text-white img-cap">Rutgers Info Widget</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center">
+                        <img class="w-100" src="./assets/images/rps.png" alt="blocks with the letters r p s">
+                        <p class="text-center text-white img-cap">Rock Papper Scissors</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer class="footer w-100 py-3 bg-secondary text-light text-center">
+        Copyright &copy; 2019
     </footer>
+
 </body>
 </html>

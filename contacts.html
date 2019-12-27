@@ -2,48 +2,53 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Yeasir H | Contact</title>
 </head>
 <body>
-    <Header>
-        <div id="hd-container" class="container">
-            <a id="text-logo" href="index.html">
-                <h2>Yeasir Hugais</h2>
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contacts.html">Contact</a></li>
-                </ul>
-            </nav>
+    <header class="bg-white border-bottom">
+        <div class="container hdr-container p-0">
+            <div class="row no-gutters">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <a class="navbar-brand" href="index.html">Yeasir Hugais</a>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">   
+                    <nav class="nav flex-row">
+                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link active" href="contacts.html">Contact</a>
+                    </nav>
+                </div>
+            </div>
         </div>
-    </Header>
-    <div id="sec-container" class="container">
-        <section>
+    </header>
+
+    <div class="row p-0 m-0">
+        <section class="sec-cont container bg-white border my-4 p-4">
             <h1>Contact</h1>
             <hr>
-            <form class="form" action="#">
+            <form class="form-group" action="#">
                 <label for="name">Name</label>
-                <input name="name" type="text" placeholder="John Smith">
-                
+                <input class="form-control mb-2" name="name" id="name" type="text" placeholder="John Smith">
+                    
                 <label for="email">Email</label>
-                <input name="email" type="text" placeholder="example@gmail.com">
-                
-                <label for="Message">Message</label>
-                <textarea name="message" id="" cols="30" rows="5"></textarea>
+                <input class="form-control mb-2" name="email" id="email" type="text" placeholder="example@gmail.com">
+                    
+                <label for="message">Message</label>
+                <textarea class="form-control mb-2" name="message" id="message" cols="30" rows="5"></textarea>
 
-                <input id="button" type="button" value="Submit">
+                <input class="col-md-2 col-xsm-12" id="button" type="button" value="Submit">
             </form>
         </section>
     </div>
-    <footer>
-        <div class="container">
-            <p>Copyright &copy; 2019</p>
-        </div>
+
+    <footer class="footer w-100 py-3 bg-secondary text-light text-center">
+        Copyright &copy; 2019
     </footer>
+
 </body>
 </html>
