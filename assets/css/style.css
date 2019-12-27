@@ -30,8 +30,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 26px;
     font-weight: 400;
-    color: 
-    #6c757d;
+    color: #6c757d;
 }
 
 p, a, button, label{
@@ -42,11 +41,6 @@ p, a, button, label{
 p{
     line-height: 1.5;
     text-align: justify;
-}
-
-.img{
-    max-width: 180px;
-    margin-top: 3px;
 }
 
 #button{
