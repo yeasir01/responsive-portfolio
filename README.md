@@ -1,16 +1,16 @@
 ## Responsive Portfolio
-Modified the simple 3 page portfolio site previously build using html/css & added bootstrap to make this site scale on a variety of differnt screens. All code has been validated with zero errors.
+Modified the simple 3 page portfolio site previously build using basic HTML/CSS & applied the bootstrap framework to make this site scale on a variety of different screen sizes. All code has been validated using W3C's online validator.
 
 ### Technology Used
-- html 5
-- css 3
-- bootstrap 4.4
+- HTML
+- CSS
+- Bootstrap 4.4
 
 ### Platform
-- browser based website.
+- Most web browsers
 
 ### Responsive
-- yes
+- Yes
 
 ### Project Version
 - 2
